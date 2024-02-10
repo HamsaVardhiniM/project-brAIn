@@ -21,8 +21,5 @@ data_frame = {'Title': titles, 'Text': texts}
 df = pd.DataFrame(data_frame)
 df.to_csv('reddit_posts.csv', index=False)
 print(df)
-import os
 
-current_directory = os.getcwd()
-print("Current working directory:", current_directory)
 
