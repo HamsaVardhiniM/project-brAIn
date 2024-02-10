@@ -2,9 +2,9 @@ import praw
 import pandas as pd
 
 reddit = praw.Reddit(
-    client_id="2T00FLDD971SKRCRdnf69A",
-    client_secret="qzhyq_GmuMvFarrIkHNyFEScXxSFAw",
-    user_agent="brAIn by u/hamsatwin",
+    client_id="********",
+    client_secret="************",
+    user_agent="***********",
 )
 
 keywords = ['depressed', 'sad', 'hate myself', 'life sucks', 'depression', 'kill myself']
